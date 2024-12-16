@@ -1,0 +1,115 @@
+
+@media only screen and (min-width: 05px) and (max-width: 479px) {
+
+}
+
+
+
+  .company-overview {
+    padding: 6S0px 0;
+    background-color: #f7f7f7;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-overview .text-overlay h1 {
+    font-size: 6rem;
+    color: rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 65px;
+    left: 200px;
+    z-index: 0;
+
+    line-height: 1;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #2c2c2c;
+    -webkit-text-fill-color: transparent;
+    opacity: .10;
+    margin-bottom: 0;
+
+    text-transform: capitalize;
+    /* z-index: -1; */
+    letter-spacing: -4px;
+    font-family: "Lexend", sans-serif;
+}
+
+
+
+.overview-text {
+    flex: 1;
+    /* min-width: 300px; */
+    min-width: 600px;
+    margin-right: 30px;
+}
+
+
+.overview-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.overview-text .highlight {
+    color: #007bff;
+}
+
+.overview-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.points {
+    background-color: #eaf4fd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.points p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+
+.overview-image {
+    flex: 1;
+    position: relative;
+    text-align: right;
+}
+
+.overview-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+
