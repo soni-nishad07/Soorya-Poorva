@@ -1,2 +1,1 @@
-# poorvaproperties
-# poorvaproperties
+# Soorya poorva properties
